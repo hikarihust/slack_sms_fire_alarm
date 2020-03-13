@@ -1,0 +1,11 @@
+Setting up Slack and the SNS Topic
+    Region: us-east-1
+    Slack Chanel: 
+        Name: freefood
+        Purpose: to alert people when there is free food
+    SNS
+        Topic name: freefood
+        Display name: freefood
+        Create subscription 
+            Protocol: SMS
+            SMS only works on us-east-1 region, you need to change the region from the sns management
